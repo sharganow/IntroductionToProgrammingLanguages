@@ -1,0 +1,15 @@
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\bin\Debug\net6.0\Task_03.exe
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\bin\Debug\net6.0\Task_03.deps.json
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\bin\Debug\net6.0\Task_03.runtimeconfig.json
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\bin\Debug\net6.0\Task_03.dll
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\bin\Debug\net6.0\Task_03.pdb
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.csproj.AssemblyReference.cache
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.AssemblyInfoInputs.cache
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.AssemblyInfo.cs
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.csproj.CoreCompileInputs.cache
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.dll
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\refint\Task_03.dll
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.pdb
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\Task_03.genruntimeconfig.cache
+D:\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_03\obj\Debug\net6.0\ref\Task_03.dll
