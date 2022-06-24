@@ -20,7 +20,7 @@ do{
     Console.WriteLine("Would you like to continue? If yes, then click 'Y'");
     quit = Console.ReadLine();
     quit = quit.ToLower();
-    if('y' == Convert.ToChar(quit)){
+    if('y' == Convert.ToChar(quit[0])){
         Console.WriteLine("What will we continue");
         
     }
