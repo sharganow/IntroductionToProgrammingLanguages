@@ -21,10 +21,11 @@ do{
     quit = Console.ReadLine();
     quit = quit.ToLower();
     if('y' == Convert.ToChar(quit)){
-        quitRepite = 'y';
+        Console.WriteLine("What will we continue");
+        
     }
     else{
-        Console.WriteLine("What will we continue");
+        quitRepite = 'y';
     };
 
 }while(quitRepite == 'n');
