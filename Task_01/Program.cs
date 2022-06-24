@@ -29,4 +29,4 @@ do{
 
 }while(quitRepite == 'n');
  Console.WriteLine("We will be glad to see you again!");
- Console.Beep(); Console.Beep();
+ Console.Beep(); Console.Beep();    // УРА!
