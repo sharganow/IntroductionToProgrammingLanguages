@@ -15,7 +15,7 @@ do{
     Console.Write("Enter second number: ");
     second = Convert.ToInt32(Console.ReadLine());
     answerOut = Convert.ToString(first) + ", " + Convert.ToString(second);
-    vOutResult(bFinedSquare(first, second), answerOut);
+    vOutResult(bFindSquare(first, second), answerOut);
 
     Console.WriteLine("Would you like to continue? If yes, then click 'Y'");
     quit = Console.ReadLine();
@@ -31,7 +31,7 @@ do{
 }while(quitRepite == 'n');
  Console.WriteLine("We will be glad to see you again!");
 
- bool bFinedSquare(int a, int b){
+ bool bFindSquare(int a, int b){
     if(a == b){
         return false;
     }
