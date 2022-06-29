@@ -12,7 +12,7 @@
         char quitRepite = 'n';
         do
         {
-            Console.WriteLine("Let's enter a three-digit number, and display only the second character of this number");
+            Console.WriteLine("Let's display the third character entered");
             Console.Write("Enter number: ");
             answerOut = Console.ReadLine();
             vOutResult(answerOut, strExtractThirdCharacter(answerOut));
