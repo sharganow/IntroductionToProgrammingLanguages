@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_11\\Task_11.csproj": {}
+    "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\task_11\\Task_11.csproj": {}
   },
   "projects": {
-    "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_11\\Task_11.csproj": {
+    "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\task_11\\Task_11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_11\\Task_11.csproj",
+        "projectUniqueName": "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\task_11\\Task_11.csproj",
         "projectName": "Task_11",
-        "projectPath": "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_11\\Task_11.csproj",
+        "projectPath": "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\task_11\\Task_11.csproj",
         "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_11\\obj\\",
+        "outputPath": "B:\\MyPassport74A\\Documents\\Projects\\HackerU\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\task_11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
