@@ -7,7 +7,7 @@
 Console.WriteLine("Hello, User!");
 string quit, answerOut;
 char quitRepite = 'n';
-int first; int second; int squareB;
+int first; int second;
 do{
     Console.WriteLine("Let's check if one of the entered numbers is the square of the other?");
     Console.Write("Enter first  number: ");
@@ -32,18 +32,10 @@ do{
  Console.WriteLine("We will be glad to see you again!");
 
  bool bFindSquare(int a, int b){
-    if(a == b){
-        return false;
-    }
+    if(a == (b*b)){     return true;  }
     else{
-        if(a > b){
-            if(a == (b*b)){ return true;  }
-            else{           return false; }
-        }
-        else{
-            if(b == (a*a)){ return true;  }
-            else{           return false; }
-        }
+        if(b == (a*a)){ return true;  }
+        else{           return false; }
     }
  }
 
