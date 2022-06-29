@@ -1,0 +1,15 @@
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\bin\Debug\net6.0\task_14.exe
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\bin\Debug\net6.0\task_14.deps.json
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\bin\Debug\net6.0\task_14.runtimeconfig.json
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\bin\Debug\net6.0\task_14.dll
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\bin\Debug\net6.0\task_14.pdb
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.csproj.AssemblyReference.cache
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.GeneratedMSBuildEditorConfig.editorconfig
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.AssemblyInfoInputs.cache
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.AssemblyInfo.cs
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.csproj.CoreCompileInputs.cache
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.dll
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\refint\task_14.dll
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.pdb
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\task_14.genruntimeconfig.cache
+B:\MyPassport74A\Documents\Projects\HackerU\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\task_14\obj\Debug\net6.0\ref\task_14.dll
