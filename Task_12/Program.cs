@@ -10,7 +10,7 @@ char quitRepite = 'n';
 int first; int second; int remainder;
 do{
     Console.WriteLine("let's determine the multiplicity of the second number to the first.");
-    Console.Write("Enter first number: ");
+    Console.Write("Enter  first number: ");
     first = Convert.ToInt32(Console.ReadLine());
     Console.Write("Enter second number: ");
     second = Convert.ToInt32(Console.ReadLine());
