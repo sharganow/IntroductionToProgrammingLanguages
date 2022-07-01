@@ -32,10 +32,10 @@
             Delta[1] = dot2[1] - dot1[1];
             cutLength = (Delta[0]*Delta[0]) + (Delta[1]*Delta[1]);
             cutLength = Math.Sqrt(cutLength);
-            // wholePartCutLength = (int)cutLength;
-            // cutLength = cutLength - (double)wholePartCutLength;
-            // fractionalPartCutLength = (int)(cutLength * 100);
-            // cutLength = (double)wholePartCutLength + ((double)fractionalPartCutLength / 100);
-            // return cutLength;
-            return Math.Round(cutLength, 2);
+            wholePartCutLength = (int)cutLength;
+            cutLength = cutLength - (double)wholePartCutLength;
+            fractionalPartCutLength = (int)(cutLength * 100);
+            cutLength = (double)wholePartCutLength + ((double)fractionalPartCutLength / 100);
+            return cutLength;
+            // return Math.Round(cutLength, 2); - не даёт результат по условию как в примере
         }
