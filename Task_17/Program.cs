@@ -9,6 +9,7 @@ internal class Program
     {
         string strQuorter;
         Console.WriteLine("Enter point coordinates (X, Y)");
+//      int[] xy = Console.ReadLine().Split().Select(int.Parse).ToArray();
         Console.Write("X: ");
         int x = Convert.ToInt32(Console.ReadLine());
         Console.Write("Y: ");
