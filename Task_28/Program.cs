@@ -11,7 +11,19 @@ Console.WriteLine($"Вычисленное значение от введенн�
 int Fractal(int number){
     int answer = 1;
     for(int i = 1; i <= number; i++){
-        answer *= i;
+        try{
+            checked
+            {
+              answer *= i;  
+            }
+            
+        }
+        catch(Exception){
+            Console.WriteLine("Переполнение типа!");
+            enteredNumber = i - 1;
+            break;
+        }
+        
     }
     return answer;
 }
