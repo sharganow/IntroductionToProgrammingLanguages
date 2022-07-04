@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj": {}
+    "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj": {
+    "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj",
+        "projectUniqueName": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj",
         "projectName": "Task_22",
-        "projectPath": "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj",
-        "packagesPath": "C:\\Users\\Mi\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\obj\\",
+        "projectPath": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\Task_22.csproj",
+        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
+        "outputPath": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
