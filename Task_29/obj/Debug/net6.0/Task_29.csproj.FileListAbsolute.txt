@@ -1,0 +1,15 @@
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\bin\Debug\net6.0\Task_29.exe
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\bin\Debug\net6.0\Task_29.deps.json
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\bin\Debug\net6.0\Task_29.runtimeconfig.json
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\bin\Debug\net6.0\Task_29.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\bin\Debug\net6.0\Task_29.pdb
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.csproj.AssemblyReference.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.GeneratedMSBuildEditorConfig.editorconfig
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.AssemblyInfoInputs.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.AssemblyInfo.cs
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.csproj.CoreCompileInputs.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\refint\Task_29.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.pdb
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\Task_29.genruntimeconfig.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\Знакомство_сЯзыкамиПрограммирования_20220621\Семинары\Семинар1\Task_29\obj\Debug\net6.0\ref\Task_29.dll
