@@ -14,8 +14,9 @@ sum = SumNegPosElements(randomeMassive);
 Console.WriteLine(viewRandomeMassive + $" Сумма отрицательных чисел равна {sum[0]}, а сумма положительных чисел равна {sum[1]}");
 
 string FillRandomeMassive(int[] massive){
-    for(int i = 0; i< massive.Length; i++){
-        massive[i] = new Random().Next(-9,10);
+    Random rnd = new Random();
+    for(int i = 0; i < massive.Length; i++){
+        massive[i] = rnd.Next(-9,10);
     }
     int j = 1;
     string viewMassive = "В массиве [";
@@ -41,3 +42,7 @@ int[] SumNegPosElements(int[] massive){
     }
     return negpos;
 }
+
+// string ShowResult(){
+
+// }
