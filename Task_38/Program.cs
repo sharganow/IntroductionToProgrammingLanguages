@@ -76,9 +76,7 @@ string ReplaceCommaWithDot(string str){
             else{
                 newStr += Convert.ToString(str[i]);
             }
-            
         }
     }
     return newStr;
 }
-
