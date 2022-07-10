@@ -11,9 +11,9 @@ int[] randomeMassive;
 int[] opositeMultipleMassive;
 string viewRandomeMassive;
 
-randomeMassive          = FillRandomeMassive                ( size,             0,                      10 );
-opositeMultipleMassive  = MultiplyingExtremeElementsArray   ( randomeMassive                                );
-viewRandomeMassive      = ShowResultReverseElements         ( randomeMassive,  opositeMultipleMassive     );
+randomeMassive          = FillRandomeMassive         ( size,            0,                      10 );
+opositeMultipleMassive  = MulExtElementsArr          ( randomeMassive                              );
+viewRandomeMassive      = ShowResultReverseElements  ( randomeMassive,  opositeMultipleMassive     );
 Console.WriteLine       ( viewRandomeMassive );
 
 int[] FillRandomeMassive(int size, int lowLimit, int highLimit){
@@ -25,13 +25,13 @@ int[] FillRandomeMassive(int size, int lowLimit, int highLimit){
     return massive;
 }
 
-int[] MultiplyingExtremeElementsArray(int[] massive){
-    int sizeArray = (massive.Length / 2) + (massive.Length %2);
+int[] MulExtElementsArr(int[] massive){
+    int sizeArray = (massive.Length / 2) + (massive.Length % 2);
     int[] array = new int[sizeArray];
-    int j = sizeArray - 1;
+    int j = massive.Length - 1;
     int i = 0;
-    for(i = 0; i < j; i++, j--){
-        array[i] = /*massive[*/i++/*] /** massive[j--]*/;
+    for( ; i < j; i++){
+        array[i] = massive[i] * massive[j--];
     }
     if(i == j){
         array[i] = massive[i];
@@ -39,7 +39,7 @@ int[] MultiplyingExtremeElementsArray(int[] massive){
     return array;
 }
 
- string ShowResultReverseElements(int[] massive, int[] antiMassive){
+string ShowResultReverseElements(int[] massive, int[] antiMassive){
     string viewMassive = MakeViewStringMassive(massive);
     string viewResult  = MakeViewStringMassive(antiMassive);
 
