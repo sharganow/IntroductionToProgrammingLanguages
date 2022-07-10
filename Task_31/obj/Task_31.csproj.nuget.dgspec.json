@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_31\\Task_31.csproj": {}
+    "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Seminars\\IntroductionToProgrammingLanguages\\Task_31\\Task_31.csproj": {}
   },
   "projects": {
-    "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_31\\Task_31.csproj": {
+    "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Seminars\\IntroductionToProgrammingLanguages\\Task_31\\Task_31.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_31\\Task_31.csproj",
+        "projectUniqueName": "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Seminars\\IntroductionToProgrammingLanguages\\Task_31\\Task_31.csproj",
         "projectName": "Task_31",
-        "projectPath": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_31\\Task_31.csproj",
-        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Семинар1\\Task_31\\obj\\",
+        "projectPath": "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Seminars\\IntroductionToProgrammingLanguages\\Task_31\\Task_31.csproj",
+        "packagesPath": "C:\\Users\\Mi\\.nuget\\packages\\",
+        "outputPath": "D:\\GeekBrains\\Знакомство_сЯзыкамиПрограммирования_20220621\\Семинары\\Seminars\\IntroductionToProgrammingLanguages\\Task_31\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Mi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
