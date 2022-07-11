@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Mi\\.nuget\\packages\\": {}
+    "C:\\Users\\Андрей\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GeekBrains\\IntroductionToProgrammingLanguages\\Task_45\\Task_45.csproj",
+      "projectUniqueName": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\IntroductionToProgrammingLanguages\\Task_45\\Task_45.csproj",
       "projectName": "Task_45",
-      "projectPath": "D:\\GeekBrains\\IntroductionToProgrammingLanguages\\Task_45\\Task_45.csproj",
-      "packagesPath": "C:\\Users\\Mi\\.nuget\\packages\\",
-      "outputPath": "D:\\GeekBrains\\IntroductionToProgrammingLanguages\\Task_45\\obj\\",
+      "projectPath": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\IntroductionToProgrammingLanguages\\Task_45\\Task_45.csproj",
+      "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
+      "outputPath": "B:\\MyPassport74A\\Documents\\Projects\\GeekBrains\\IntroductionToProgrammingLanguages\\Task_45\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
