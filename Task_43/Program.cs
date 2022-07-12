@@ -80,6 +80,7 @@ if(bIntersection){
 if(bEqualityСheck){
     RoundTheValuesOfArrayElements   ( intersectionPoint, 3 );
     answer                          = ShowPointOfIntersectionForGivenStraightLines(intersectionPoint, k1, b1, k2, b2);
+    answer                          = CorrectPlusSign(answer);
     Console.WriteLine               ( answer );
 }
 
@@ -151,4 +152,22 @@ string MakeViewStringMassive(double[] massive){
     }
     viewString += ")";
     return viewString;
+}
+
+string CorrectPlusSign(string str){
+    string newStr = "";
+    for(int i = 0; i < str.Length; i++){
+        if(Convert.ToChar(str[i])=='+'){
+            int j = i + 1;
+            if(j < str.Length){
+                if(Convert.ToChar(str[j])!='-'){
+                    newStr += Convert.ToString(str[i]);
+                }
+            }
+        }
+        else{
+            newStr += Convert.ToString(str[i]);
+        }
+    }
+    return newStr;
 }
