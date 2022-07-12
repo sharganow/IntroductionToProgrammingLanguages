@@ -1,0 +1,15 @@
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\bin\Debug\net6.0\Task_43.exe
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\bin\Debug\net6.0\Task_43.deps.json
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\bin\Debug\net6.0\Task_43.runtimeconfig.json
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\bin\Debug\net6.0\Task_43.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\bin\Debug\net6.0\Task_43.pdb
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.csproj.AssemblyReference.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.GeneratedMSBuildEditorConfig.editorconfig
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.AssemblyInfoInputs.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.AssemblyInfo.cs
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.csproj.CoreCompileInputs.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\refint\Task_43.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.pdb
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\Task_43.genruntimeconfig.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_43\obj\Debug\net6.0\ref\Task_43.dll

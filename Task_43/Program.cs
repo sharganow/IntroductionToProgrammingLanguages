@@ -1,2 +1,115 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 43: 
+// Напишите программу, которая найдёт точку пересечения двух прямых, 
+// заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; 
+// значения b1, k1, b2 и k2 задаются пользователем.
+
+// b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+bool bIntersection;
+int k1;     int b1;
+int k2;     int b2;
+Console.Write("Set the value of the coefficient K1: ");
+k1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Set the value of the coefficient B1: ");
+b1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Set the value of the coefficient K2: ");
+k2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Set the value of the coefficient B2: ");
+b2 = Convert.ToInt32(Console.ReadLine());
+bIntersection = false;
+
+if(k1 == k2){
+    if(b1 == b2){
+        Console.WriteLine("You defined the parameters of the same line twice");
+    }
+    else{
+        Console.WriteLine("The lines to be checked are parallel and do not intersect.");
+    }
+}
+else{
+    double[] intersectionPoint  = new double[2];    /* Здесь объявлена и создана заготовка массива,
+                                                       хранящего координаты точки пересечения заданных прямых
+                                                       нулевой индекс - значение координаты Х
+                                                       первый индекс  - значение координаты Y */
+    bool bEqualityСheck         = false;
+    double deviation            = 0.00001;
+    if(
+        FindYintersectionPoint(intersectionPoint, k1, b1, k2, b2)
+    ){
+        if(
+            FindXintersectionPoint(intersectionPoint, k1, b1)
+        ){
+            double tempX = intersectionPoint[0];
+            if(
+                FindXintersectionPoint(intersectionPoint, k2, b2)
+            ){
+                bEqualityСheck = EqualityСheck(tempX, intersectionPoint[0], deviation);
+            }
+            else{
+                bIntersection = true;
+            }
+        }
+        else{
+            if(
+                FindXintersectionPoint(intersectionPoint, k2, b2)
+            ){
+                bIntersection = true;
+            }
+            else{
+                Console.WriteLine("Lines are either parallel or united");
+            }
+        }
+    }
+    else{
+        Console.WriteLine("Lines are either parallel or united");
+    }
+
+    Console.WriteLine("Hello, World!");
+}
+
+bool FindYintersectionPoint(double[] iP, int k1, int b1, int k2, int b2){
+    int dividend;
+    int divider;
+    divider = k2 - k1;
+    if(divider == 0){
+        return false;
+    }
+    else{
+        dividend = (b1*k2) - (b2*k1);
+        iP[1] = (double) dividend / (double) divider;
+        return true;
+    }
+}
+
+bool FindXintersectionPoint(double[] iP, int k, int b){
+    double dividend;
+    if(k == 0){
+        return false;
+    }
+    else{
+        dividend = iP[1] - (double) b;
+        iP[0] = dividend / (double) k;
+        return true;
+    }
+}
+
+bool EqualityСheck(double var1, double var2, double deviation){
+    if(var1 == var2){
+        return true;
+    }
+    else{
+        if(var1 > var2){
+            double  temp = var2;
+                    var2 = var1;
+                    var1 = temp;
+        }
+        if( var2 - var1 <= deviation){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+
+
+
