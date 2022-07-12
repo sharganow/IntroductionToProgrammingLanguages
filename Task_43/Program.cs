@@ -4,9 +4,18 @@
 // значения b1, k1, b2 и k2 задаются пользователем.
 
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
-bool bIntersection;
+
+
+bool bIntersection;     int line;
+bool bEqualityСheck;
 int k1;     int b1;
 int k2;     int b2;
+double[] intersectionPoint  = new double[2];    /* Здесь объявлена и создана заготовка массива,
+                                                    хранящего координаты точки пересечения заданных прямых
+                                                    нулевой индекс - значение координаты Х
+                                                    первый индекс  - значение координаты Y */
+double deviation;
+string answer;
 Console.Write("Set the value of the coefficient K1: ");
 k1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Set the value of the coefficient B1: ");
@@ -15,7 +24,10 @@ Console.Write("Set the value of the coefficient K2: ");
 k2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Set the value of the coefficient B2: ");
 b2 = Convert.ToInt32(Console.ReadLine());
-bIntersection = false;
+bIntersection       = false;
+bEqualityСheck      = false;
+deviation           = 0.00001;
+line                = 0;
 
 if(k1 == k2){
     if(b1 == b2){
@@ -26,12 +38,6 @@ if(k1 == k2){
     }
 }
 else{
-    double[] intersectionPoint  = new double[2];    /* Здесь объявлена и создана заготовка массива,
-                                                       хранящего координаты точки пересечения заданных прямых
-                                                       нулевой индекс - значение координаты Х
-                                                       первый индекс  - значение координаты Y */
-    bool bEqualityСheck         = false;
-    double deviation            = 0.00001;
     if(
         FindYintersectionPoint(intersectionPoint, k1, b1, k2, b2)
     ){
@@ -46,6 +52,7 @@ else{
             }
             else{
                 bIntersection = true;
+                line          = 2;
             }
         }
         else{
@@ -53,6 +60,7 @@ else{
                 FindXintersectionPoint(intersectionPoint, k2, b2)
             ){
                 bIntersection = true;
+                line          = 1;
             }
             else{
                 Console.WriteLine("Lines are either parallel or united");
@@ -62,8 +70,17 @@ else{
     else{
         Console.WriteLine("Lines are either parallel or united");
     }
+}
 
-    Console.WriteLine("Hello, World!");
+if(bIntersection){
+    bEqualityСheck                  = true;
+    Console.WriteLine               ( $"Line{line} parallel to X axis" );
+}
+
+if(bEqualityСheck){
+    RoundTheValuesOfArrayElements   ( intersectionPoint, 3 );
+    answer                          = ShowPointOfIntersectionForGivenStraightLines(intersectionPoint, k1, b1, k2, b2);
+    Console.WriteLine               ( answer );
 }
 
 bool FindYintersectionPoint(double[] iP, int k1, int b1, int k2, int b2){
@@ -111,5 +128,27 @@ bool EqualityСheck(double var1, double var2, double deviation){
     }
 }
 
+string ShowPointOfIntersectionForGivenStraightLines(double[] iP, int k1, int b1, int k2, int b2){
+    string sTerms;
+    string sIntersection;
+    sTerms          = $"Intersection point for lines: y={k1}x+{b1} and y={k2}x+{b2} -> ";
+    sIntersection   = MakeViewStringMassive(iP);
+    return sTerms + sIntersection;
+}
 
+void RoundTheValuesOfArrayElements(double[] iP, int accuracy){
+    for(int i = 0; i < iP.Length; i++){
+        iP[i] = Math.Round(iP[i], accuracy);
+    }
+}
 
+string MakeViewStringMassive(double[] massive){
+    string viewString = "(";
+    int j = 1;
+    for(int i = 0; i < massive.Length; i++, j++){
+        viewString += Convert.ToString(massive[i]);
+        if(j != massive.Length) viewString += "; ";
+    }
+    viewString += ")";
+    return viewString;
+}
