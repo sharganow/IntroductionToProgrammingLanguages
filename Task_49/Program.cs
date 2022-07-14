@@ -40,8 +40,8 @@ void PrintMatrixRndInt(int[,] mssv){
     for(int i = 0; i < mssv.GetLength(0); i++){
         Console.Write("[");
         for(int j = 0; j < mssv.GetLength(1); j++){
-            Console.Write($"{mssv[i,j], 3}");
-            if(j < (mssv.GetLength(1) -1)){   Console.Write(", ");}
+            if(j < (mssv.GetLength(1) -1)){     Console.Write($"{mssv[i,j], 3}, ");}
+            else{                               Console.Write($"{mssv[i,j], 3}");}
         }
         Console.WriteLine("]");
     }
