@@ -8,7 +8,6 @@ Random rnd = new Random();
 int size = rnd.Next(2, 11);
 int[]   randomeMassive;
 int[]   reverseMassive;
-double     amplitude;
 string  viewAnswer;
 
 randomeMassive   = FillRandomeMassive(size, -100, 100);

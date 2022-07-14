@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-string quit;
+﻿string quit;
 char quitRepite = 'n';
 int day;
 int u8DaysKnown = 0;
