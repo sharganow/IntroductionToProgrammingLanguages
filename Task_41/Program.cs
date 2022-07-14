@@ -7,6 +7,8 @@ int m;
 int[] rangeM;
 string answer;
 
+//string[] input = Console.ReadLine().Split(',').ToArray();
+
 Console.Write       ( "Determine how many numbers you want to enter: " );
 m                   = Convert.ToInt32(Console.ReadLine());
 if(m < 0)           { m = 0 - m; }
