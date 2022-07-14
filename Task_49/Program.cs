@@ -4,13 +4,13 @@
 
 int [,] matrix;
 
-matrix = FillMatrixRndInt(3, 4, 9, 0);
+matrix = FillMatrixRndInt(5, 5, 0, 9);
 PrintMatrixRndInt(matrix);
 Console.WriteLine(" ");
 matrix = CorrectMatrix(matrix);
 PrintMatrixRndInt(matrix);
 
-int[,] FillMatrixRndInt(int row, int col, int max, int min){
+int[,] FillMatrixRndInt(int row, int col, int min, int max){
     int[,] mssv = new int[row, col];
     Random rnd = new Random();
     for(int i = 0; i < mssv.GetLength(0); i++){
@@ -33,14 +33,14 @@ int[,] CorrectMatrix(int[,] mssv){
             }
         }   
     }
-    return mtrx;  
+    return mtrx;
 }
 
 void PrintMatrixRndInt(int[,] mssv){
     for(int i = 0; i < mssv.GetLength(0); i++){
         Console.Write("[");
         for(int j = 0; j < mssv.GetLength(1); j++){
-            Console.Write(mssv[i,j]);
+            Console.Write($"{mssv[i,j], 3}");
             if(j < (mssv.GetLength(1) -1)){   Console.Write(", ");}
         }
         Console.WriteLine("]");
