@@ -4,7 +4,7 @@
 
 int [,] matrix;
 
-matrix = FillMatrixRndInt(5, 5, 0, 9);
+matrix = FillMatrixRndInt(5, 5, -9, 9);
 PrintMatrixRndInt(matrix);
 Console.WriteLine(" ");
 matrix = CorrectMatrix(matrix);
@@ -26,7 +26,7 @@ int[,] CorrectMatrix(int[,] mssv){
     for(int i = 0; i < mssv.GetLength(0); i++){
         for(int j = 0; j < mssv.GetLength(1); j++){
             if(i%2==0 && j%2==0){
-                mtrx[i,j] = (int) Math.Pow((int)mssv[i,j], (int)2);
+                mtrx[i,j] = (int) Math.Pow(mssv[i,j], 2);
             }
             else{
                 mtrx[i,j] = mssv[i,j];
