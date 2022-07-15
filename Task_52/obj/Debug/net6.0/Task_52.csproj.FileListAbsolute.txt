@@ -1,0 +1,15 @@
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.csproj.AssemblyReference.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.GeneratedMSBuildEditorConfig.editorconfig
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.AssemblyInfoInputs.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.AssemblyInfo.cs
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.csproj.CoreCompileInputs.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\bin\Debug\net6.0\Task_52.exe
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\bin\Debug\net6.0\Task_52.deps.json
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\bin\Debug\net6.0\Task_52.runtimeconfig.json
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\bin\Debug\net6.0\Task_52.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\bin\Debug\net6.0\Task_52.pdb
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\refint\Task_52.dll
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.pdb
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\Task_52.genruntimeconfig.cache
+B:\MyPassport74A\Documents\Projects\GeekBrains\IntroductionToProgrammingLanguages\Task_52\obj\Debug\net6.0\ref\Task_52.dll
