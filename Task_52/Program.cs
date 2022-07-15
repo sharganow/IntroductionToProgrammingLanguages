@@ -15,7 +15,6 @@ int accuracy    = 2;
 int min         = -1000;
 int max         =  1000;
 
-
 int [,] matrix;
 
 matrix              = FillMatrixRndInt(row, col, min, max);
@@ -24,7 +23,6 @@ PrintMatrixInt      ( matrix, arrange);
 answer              = CountAverageColumns(matrix, accuracy, arrange);
 Console.WriteLine   ( "Arithmetic mean in each column:");
 Console.WriteLine   ( answer );
-
 
 int[,] FillMatrixRndInt(int row, int col, int min, int max){
     int[,] mssv = new int[row, col];
@@ -72,7 +70,7 @@ void PrintMatrixInt(int[,] mssv, int arrange){
         for(int j = 0; j < mssv.GetLength(1); j++){
             strPprint = Convert.ToString(mssv[i,j]);
             ConsoleWriteArrange(strPprint, arrange);
-            if(j < (mssv.GetLength(1) -1)){   Console.Write(",");}
+            //if(j < (mssv.GetLength(1) -1)){   Console.Write(",");}
         }
         ConsoleWriteArrange("]", arrange - accuracy - 2);
         Console.WriteLine("");
@@ -81,16 +79,16 @@ void PrintMatrixInt(int[,] mssv, int arrange){
 
 void ConsoleWriteArrange(string print, int arrange){
     switch(arrange){
-        case 0:     Console.Write($"{print, 0}"); break;
-        case 1:     Console.Write($"{print, 1}"); break;
-        case 2:     Console.Write($"{print, 2}"); break;
-        case 3:     Console.Write($"{print, 3}"); break;
-        case 4:     Console.Write($"{print, 4}"); break;
-        case 5:     Console.Write($"{print, 5}"); break;
-        case 6:     Console.Write($"{print, 6}"); break;
-        case 7:     Console.Write($"{print, 7}"); break;
-        case 8:     Console.Write($"{print, 8}"); break;
-        case 9:     Console.Write($"{print, 9}"); break;
+        case 0:     Console.Write($"{print,  0}"); break;
+        case 1:     Console.Write($"{print,  1}"); break;
+        case 2:     Console.Write($"{print,  2}"); break;
+        case 3:     Console.Write($"{print,  3}"); break;
+        case 4:     Console.Write($"{print,  4}"); break;
+        case 5:     Console.Write($"{print,  5}"); break;
+        case 6:     Console.Write($"{print,  6}"); break;
+        case 7:     Console.Write($"{print,  7}"); break;
+        case 8:     Console.Write($"{print,  8}"); break;
+        case 9:     Console.Write($"{print,  9}"); break;
         case 10:    Console.Write($"{print, 10}"); break;
         case 11:    Console.Write($"{print, 11}"); break;
         case 12:    Console.Write($"{print, 12}"); break;
@@ -100,7 +98,8 @@ void ConsoleWriteArrange(string print, int arrange){
 }
 
 string CountAverageColumns(int[,] mtrx, int accuracy,int arrange){
-    string  averages = "";
+    string  averages = " ";
+    string  strOneAverage;
     int     sumColumn;
     double  average;
     for(int i = 0; i < mtrx.GetLength(1); i++){
@@ -110,7 +109,10 @@ string CountAverageColumns(int[,] mtrx, int accuracy,int arrange){
         }
         average = (double)sumColumn / (double)mtrx.GetLength(0);
         average = Math.Round(average, accuracy);
-        averages += StringArrange(Convert.ToString(average), arrange + 1);
+        strOneAverage = Convert.ToString(average);
+        strOneAverage = ReplaceCommaWithDot(strOneAverage);
+        averages += StringArrange(strOneAverage, arrange);
+        //if(i < mtrx.GetLength(1) - 1){averages += " ";}
     }
     return averages;
 }
@@ -123,4 +125,17 @@ string StringArrange(string str, int arrange){
         }
     }
     return stringArrange + str;
+}
+
+string ReplaceCommaWithDot(string str){
+    string newStr = "";
+    for(int i = 0; i < str.Length; i++){
+        if(Convert.ToChar(str[i])==','){
+            newStr += Convert.ToString('.');
+        }
+        else{
+            newStr += Convert.ToString(str[i]);
+        }
+    }
+    return newStr;
 }
