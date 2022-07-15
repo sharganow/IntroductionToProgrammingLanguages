@@ -7,7 +7,6 @@
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
-string[]    input;
 string      answer;
 int row         = 3;
 int col         = 7;
@@ -18,7 +17,6 @@ int max         =  1000;
 
 
 int [,] matrix;
-int sum;
 
 matrix              = FillMatrixRndInt(row, col, min, max);
 arrange             = GetMaxNumViewSignValue(matrix, accuracy);
