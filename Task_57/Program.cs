@@ -1,28 +1,25 @@
-﻿// Задача №55:
-// Задайте двумерный массив.
-// Напишите программу, которая заменяет строки на столбцы.
-// В случае если это невозможно, программа должна вывести сообщение для пользователя.
-
-// P.S. "поворот" матрицы реализовал универсально, соответственно проблемме нет места, 
-//      вывожу только результат "наклона" массива
+﻿// Задача №57:
+// Составить частотный словарь элементов двумерного массива.
+// Частотный словарь содержит информацию о том, 
+// сколько раз встречается элемент входных данных.
 
 int row         = 3;
 int col         = 7;
 int arrange     = 0;
 int accuracy    = 2;
-int min         = -1000;
-int max         =  1000;
+int min         = -1;
+int max         =  5;
 
 int [,] matrix;
-int [,] rotateMatrix;
+int[,]  valuesAndFraquencys;
 
-matrix              = FillMatrixRndInt(row, col, min, max);
-arrange             = GetMaxNumViewSignValue(matrix, accuracy);
-rotateMatrix          = RotateMatrix(matrix);
+matrix              = FillMatrixRndInt       ( row, col, min, max );
+arrange             = GetMaxNumViewSignValue ( matrix, accuracy );
+valuesAndFraquencys = MakeValueFraqMassive   ( matrix );
 
 PrintMatrixInt      ( matrix, arrange);
-Console.WriteLine   ( "Result of replacing rows with columns:");
-PrintMatrixInt      ( rotateMatrix, arrange);
+Console.WriteLine   ( "for this matrix, the frequency array is as follows: ");
+PrintValAndFraq     ( valuesAndFraquencys, arrange);
 
 int[,] FillMatrixRndInt(int row, int col, int min, int max){
     int[,] mssv = new int[row, col];
@@ -35,17 +32,47 @@ int[,] FillMatrixRndInt(int row, int col, int min, int max){
     return mssv;
 }
 
-int[,] RotateMatrix(int[,] mssv){
-    int[,] rotateMatrix;
-    rotateMatrix  = new int[mssv.GetLength(1), mssv.GetLength(0)];
-
+int[,] MakeValueFraqMassive(int[,] mssv){
+    int[,] vAf = new int[2,1]  {{mssv[0,0]},{0}};
     for(int i = 0; i < mssv.GetLength(0); i++){
         for(int j = 0; j < mssv.GetLength(1); j++){
-            rotateMatrix[j, i] = mssv[i, j];
+            vAf = availabilityСheck(vAf, mssv[i,j]);
+        }   
+    }
+    return vAf;
+}
+
+int[,] availabilityСheck(int[,] vAf, int checkValue){
+    for(int i = 0; i < vAf.GetLength(1); i++){
+        if(vAf[0,i] > checkValue){
+            vAf = addVaF(vAf, checkValue, i);
+            return vAf;
+        }
+        else{
+            if(vAf[0,i] == checkValue){
+                vAf[1,i]++;
+                return vAf;
+            }
         }
     }
+    vAf = addVaF(vAf, checkValue, vAf.GetLength(1));
+    return vAf;
+}
 
-    return rotateMatrix;
+int[,] addVaF(int[,] vAf, int newValue, int posNewValue){
+    int[,] newVaF = new int[2, vAf.GetLength(1)+1];
+    CopyFragmetVaf(newVaF, vAf, 0, 0,  posNewValue);
+    newVaF[0, posNewValue] = newValue;
+    newVaF[1, posNewValue] = 1;
+    CopyFragmetVaf(newVaF, vAf, posNewValue + 1, posNewValue,  vAf.GetLength(1) - posNewValue);
+    return newVaF;
+}
+
+void CopyFragmetVaf(int[,] cpMssv, int[,] orgn, int iRecipient, int iSource,  int length){
+    for(int i = 0; i < length; i++){
+        cpMssv[0, iRecipient]   = orgn[0, iSource];
+        cpMssv[1, iRecipient++] = orgn[1, iSource++];
+    }
 }
 
 int GetNumViewSignValue(int value){
@@ -107,5 +134,29 @@ void PrintMatrixInt(int[,] mssv, int arrange){
         }
         ConsoleWriteArrange("]", arrange - accuracy - 2);
         Console.WriteLine("");
+    }
+}
+
+void PrintValAndFraq(int[,] vAf, int arrange){
+    String strPprint; 
+    for(int j = 0; j < vAf.GetLength(1); j++){
+        strPprint = Convert.ToString(vAf[0,j]);
+        ConsoleWriteArrange(strPprint, arrange);
+        Console.Write("  appears");
+        strPprint = Convert.ToString(vAf[1,j]);
+        ConsoleWriteArrange(strPprint, 4);
+        WriteWordTimes(vAf[1,j]);
+        Console.WriteLine("");
+    }    
+}
+
+void WriteWordTimes(int times){
+    switch(times){
+        case 0:     
+        case 1:     Console.Write(" time");  break;    //раз
+        case 2:     
+        case 3:     
+        case 4:     Console.Write(" times"); break;  //раза
+        default:    Console.Write(" time");  break;
     }
 }

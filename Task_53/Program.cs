@@ -64,7 +64,7 @@ void CopyStartStopLineMatrix(int[,] cpMssv, int[,] orgn,  int start, int stop){
     int orgnRowLength = orgn.GetLength(1);
     if(orgnRowLength != cpMssv.GetLength(1))                                        return;
     if(orgn.GetLength(0) != cpMssv.GetLength(0))                                    return;
-    if(start > stop || start >= orgn.GetLength(0) || stop >= orgn.GetLength(0))     return;
+    if(start > stop || start >= orgn.GetLength(0)-1 || stop >= orgn.GetLength(0)-1) return;
     for(int line = start; line <= stop; line++){
         for(int j = 0; j < orgnRowLength; j++){
             cpMssv[line, j] = orgn[line, j];
