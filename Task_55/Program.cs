@@ -3,7 +3,6 @@
 // Напишите программу, которая заменяет строки на столбцы.
 // В случае если это невозможно, программа должна вывести сообщение для пользователя.
 
-string      answer;
 int row         = 3;
 int col         = 7;
 int arrange     = 0;
@@ -45,10 +44,6 @@ int[,] RotateMatrix(int[,] mssv){
 
     return rotateMatrix;
 }
-
-
-
-
 
 void CopyStartStopLineMatrix(int[,] cpMssv, int[,] orgn,  int start, int stop){
     int orgnRowLength = orgn.GetLength(1);
@@ -123,4 +118,3 @@ void PrintMatrixInt(int[,] mssv, int arrange){
         Console.WriteLine("");
     }
 }
-
