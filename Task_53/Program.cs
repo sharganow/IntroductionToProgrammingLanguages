@@ -15,7 +15,7 @@ int [,] matrix;
 matrix              = FillMatrixRndInt(row, col, min, max);
 arrange             = GetMaxNumViewSignValue(matrix, accuracy);
 PrintMatrixInt      ( matrix, arrange);
-matrix          = SwapFirstLastLinesMatrix(matrix);
+matrix              = SwapFirstLastLinesMatrix(matrix);
 Console.WriteLine   ( "The result of the string replacement is shown below.");
 PrintMatrixInt      ( matrix, arrange);
 
