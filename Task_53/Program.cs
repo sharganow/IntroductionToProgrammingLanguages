@@ -10,15 +10,14 @@ int min         = -1000;
 int max         =  1000;
 
 int [,] matrix;
-int [,] swapMatrix;
+//int [,] swapMatrix;
 
 matrix              = FillMatrixRndInt(row, col, min, max);
 arrange             = GetMaxNumViewSignValue(matrix, accuracy);
-swapMatrix          = SwapFirstLastLinesMatrix(matrix);
-
 PrintMatrixInt      ( matrix, arrange);
+matrix          = SwapFirstLastLinesMatrix(matrix);
 Console.WriteLine   ( "The result of the string replacement is shown below.");
-PrintMatrixInt      ( swapMatrix, arrange);
+PrintMatrixInt      ( matrix, arrange);
 
 int[,] FillMatrixRndInt(int row, int col, int min, int max){
     int[,] mssv = new int[row, col];
