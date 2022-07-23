@@ -1,0 +1,15 @@
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\bin\Debug\net6.0\Task_59.exe
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\bin\Debug\net6.0\Task_59.deps.json
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\bin\Debug\net6.0\Task_59.runtimeconfig.json
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\bin\Debug\net6.0\Task_59.dll
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\bin\Debug\net6.0\Task_59.pdb
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.csproj.AssemblyReference.cache
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.AssemblyInfoInputs.cache
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.AssemblyInfo.cs
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.csproj.CoreCompileInputs.cache
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.dll
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\refint\Task_59.dll
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.pdb
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\Task_59.genruntimeconfig.cache
+D:\GeekBrains\IntroductionToProgrammingLanguages\Task_59\obj\Debug\net6.0\ref\Task_59.dll
