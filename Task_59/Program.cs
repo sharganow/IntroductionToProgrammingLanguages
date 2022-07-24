@@ -18,15 +18,14 @@ int[] coordMinValue = new int[2] {row, col};
 
 int [,] matrix;
 
-matrix              = FillMatrixRndInt       ( row, col, min, max );
-arrange             = GetMaxNumViewSignValue ( matrix );
-PrintMatrixInt      ( matrix, arrange );
-coordMinValue       = FindMinValueCoord      ( matrix );
-Console.Write   ( $"X:{coordMinValue[0],  3}, Y:{coordMinValue[1],  3}" );
-Console.WriteLine("");
-
-matrix              = CutMatrix              ( matrix, coordMinValue);
-PrintMatrixInt      ( matrix, arrange );/**/
+matrix              = FillMatrixRndInt          ( row, col, min, max );
+arrange             = GetMaxNumViewSignValue    ( matrix );
+                      PrintMatrixInt            ( matrix, arrange );
+coordMinValue       = FindMinValueCoord         ( matrix );
+             Console. Write                     ( $"X:{coordMinValue[0],  3}, Y:{coordMinValue[1],  3}" );
+             Console. WriteLine                 ( "" );
+matrix              = CutMatrix                 ( matrix, coordMinValue );
+                      PrintMatrixInt            ( matrix, arrange );/**/
 
 
 
