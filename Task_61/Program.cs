@@ -16,11 +16,8 @@ int[,] FillMatrixPascal(int row){
     int col;
     if(row == 0){
         row = 1;
-        col = (row * 2) + 1;
     }
-    else{
-        col = (row * 2) + 1;
-    }
+    col = (row * 2) + 1;
     int[,] mssv = new int[row, col];
     for(int i = 0; i < mssv.GetLength(0); i++){
         for(int j = 0; j < mssv.GetLength(1); j++){
