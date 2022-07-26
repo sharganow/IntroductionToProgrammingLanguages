@@ -12,7 +12,7 @@ NaturalNumber(num);
 void NaturalNumber(int num){
     if(num == 0) return;
     else{
-        Console.Write($"{num}");
         NaturalNumber(num - 1);
+        Console.Write($"{num}");
     }
 }
