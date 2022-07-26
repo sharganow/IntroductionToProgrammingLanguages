@@ -11,15 +11,15 @@ int num = int.Parse(Console.ReadLine());
 string answer;
 
 answer          = $"N = {num} -> " + Convert.ToString('"');
-answer         += DescendingString  ( num/*, string dscStr*/);
+answer         += DescendingString  ( num );
          Console. Write             ( answer );
 
-string DescendingString(int n/*, string dscStr*/)
+string DescendingString(int n)
 {
     if(n == 1){ 
         return "1" + Convert.ToString('"');
     }
     else{
-        return Convert.ToString(n) + ", " + DescendingString( n - 1/*, string dscStr*/);
+        return Convert.ToString(n) + ", " + DescendingString( n - 1);
     }
 }
